@@ -1,0 +1,42 @@
+h1 {
+    background-color: #030202;
+    color: aliceblue;
+    padding: 5px;
+}
+
+h2 {
+    background-color: #030202;
+    color: aliceblue;
+    padding: 5px;
+}
+
+h4 {
+    background-color: #a09d9d;
+    color: aliceblue;
+    display: inline;
+}
+
+  .links { 
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+ .image {
+    padding: 10px; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  a:hover {
+    color: rgb(0, 204, 255);
+  }
+
+  a:link {
+    color: rgb(117, 159, 248);
+  }
+
+  a:link:hover {
+    color: rgb(41, 190, 73);
+  }
+  
+  
