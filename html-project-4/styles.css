@@ -1,0 +1,45 @@
+.header-container {
+    padding: 5px ;
+    background: linear-gradient(white, yellow);
+}
+
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-item {
+  padding: 10px;
+  margin: 20px 100px 10px 100px; 
+  height: 700px;
+  flex: 1;
+  background-color: white;
+  border: 3px solid #1ffb0b;
+  border-radius: 0px 0px 50px 50px; 
+  text-align: left;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot-item {
+    display: grid;
+    align-items: flex-end;
+    padding: 10px;
+    height: 50px;
+    flex: 1;
+    background: linear-gradient(white, yellow);
+  }
+
+  .footer-one {
+      display: grid;
+      align-items: flex-end;
+      text-align: start;
+  }
+
+  .footer-two {
+      text-align: end;
+  }
