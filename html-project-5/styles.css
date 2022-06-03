@@ -4,6 +4,11 @@
     box-sizing: border-box;
   }
 
+  .hero{
+    padding: 400px;
+    background-image: url(images/lada-hero.JPG);
+    background-size: cover;
+  }
   .header-container {
       background: linear-gradient(white, grey);
       width: 100%;
@@ -84,20 +89,27 @@
 
   .images {
       display: flex;
-      justify-content: space-around;
+      justify-content: center;
       text-align: center;
+      width: 1040px;
+      margin: 0 auto;
+      padding: 30px;
+  }
+
+  .image-two {
+      padding: 0px 30px 0px 30px;
   }
 
   .infos {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 30px 0px 30px 0px;
 }
 
 .infos-item {
-    padding: 10px;
-    margin: 50px 500px;
-    height: 200px;
+    width: 1040px;
+    margin: 0 auto;
     flex: 1;
     background-color: white;
     border: 3px solid #595a59;
