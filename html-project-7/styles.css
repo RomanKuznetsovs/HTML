@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.header-container {
+    background: linear-gradient(white, rgb(127, 194, 3));
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 100%;
+}
+
+.images-item {
+width: 1040px;
+height: fit-content;
+margin: 20px;
+padding: 10px auto;
+display: block;
+background-color: white;
+border: 3px solid #595a59;
+text-align: left;
+}
+
+.illustration img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+.text{
+    padding: 10px;
+}  
+
+.foot-container {
+    background: linear-gradient(white, rgb(127, 194, 3));
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
