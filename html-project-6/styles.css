@@ -22,11 +22,10 @@
   }
   
   .card {
-    margin: 30px;
+    margin: 20px;
     width: 40%;
     height: 300px;
     display: flex;
-    flex-direction: row;
     align-items: center;
     font-size: 2em;
     border: 3px solid #0a0a0a;
@@ -69,21 +68,13 @@
     text-align: end;
 }
 
-  @media only screen and (max-width: 800px) {
-    .page {
-      width: 800px;
-      margin: auto;
-    }
-    .header-container {
-      width: 100%;
-    }
-    .cards,
-    .one ,
-    .two ,
-    .card {
-      margin: 20px;
+  @media(max-width: 800px) {
+    .cards{
+      margin: 40px;
       flex-direction: column;
-      align-items: center;
+    }
+    .card {
+      margin: 10px;
       width: 100%;
     }
   }
