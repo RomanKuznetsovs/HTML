@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .hero{
+    width: 100%;
+    height: 1000px;
+    background-image: url(images/picca.jpg);
+    background-size: cover;
+  }
+
+  .header-container {
+    background: linear-gradient(white, rgb(194, 248, 67));
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+a:link,
+a:visited {
+  color: #070707;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.menu {
+  margin-top: 5px;
+}
+
+.menu > li {
+  margin-right: 50px;
+  display: inline;
+}
+
+.menu > li:last-of-type {
+  margin-right: 0;
+}
+
+.dropdown:hover .features-menu {
+  display: flex;
+  flex-direction: column;
+  background: #a2f802;
+  border-radius: 5px;
+  padding-top: 60px;
+  position: absolute;
+  top: -15px;
+  left: -20px;
+  z-index: 1;
+}
+
+.features-menu li {
+  list-style: none;
+  border-bottom: 1px solid rgb(7, 7, 7);
+  padding: 0px 20px 10px 20px;
+  margin: 10px;
+}
+
+.features-menu li:last-of-type {
+  border-bottom: none;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown > span {
+  z-index: 2;
+  position: relative;
+  cursor: pointer;
+}
+
+.features-menu {                    
+  display: none;
+}
+
+.form-row {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: rgb(8, 0, 0);
+    position: absolute;
+    bottom: 300px;
+    left: 50px;
+  }
+  
+  .form-row input[type='text'],
+  .form-row input[type='email'],
+  .form-row input[type='time']{
+    background-color: #ffffff;
+    border: 1px solid #29fd2f;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 15px;
+  }
+
+.form-row input[type="text"]:invalid,
+.form-row input[type="email"]:invalid,
+.form-row input[type='time']:invalid {
+  border: 1px solid #f8060a;
+  color: #fc070b;
+  box-shadow: none;
+}
+  
+  .form-row label {
+    margin-bottom: 10px;
+  }
+
+  .form-row button {
+    font-size: 16px;
+    position: absolute;
+    top: 380px;
+  
+    color: #0a0a0a;
+    background-color: #c8f858;
+  
+    border: none;
+    border-radius: 3px;
+  
+    padding: 10px 40px;
+    cursor: pointer;
+  }
+  
+  .form-row button:hover {
+    background-color: #b0b8fc;
+  }
+  
+  .form-row button:active {
+    background-color: #f1eeee;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+  .foot-item {
+    height: 40px;
+    flex: 1;
+    background: linear-gradient(white, rgb(194, 248, 67));
+  }
+
+  .footer-one {
+    padding: 10px;
+}
+  .footer-two {
+    padding: 10px;
+    text-align: end;
+}
+
+.speaker-form {
+    background-color: #8d8c8c;
+    border: 1px solid #29fd2f;
+    border-radius: 3px;
+
+    width: 30%;
+  
+  }
